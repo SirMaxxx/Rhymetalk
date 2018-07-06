@@ -1,3 +1,13 @@
-<p>
-  rhyme works!
-</p>
+<form [formGroup]="rhymeForm" autocomplete="off" role="presentation">
+
+  <max-textinput formControlName="name" [placeholder]="'Your Name'" [talk]="shouldTalk"></max-textinput>
+
+  <br>
+  <max-textinput formControlName="address" [placeholder]="'Your address'" [talk]="shouldTalk"></max-textinput>
+  <br>
+  <max-textinput formControlName="phone" [placeholder]="'Your phone number'" [talk]="shouldTalk"></max-textinput>
+  <br>
+
+  <button (click)="click()">Submit</button>
+</form>
+<div *ngIf="rhymeForm.pristine"> {{rhymingWord}}</div>
