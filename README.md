@@ -2,26 +2,21 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
-## Development server
+## Developed by @SirMaxxx for a talk at Angular Brisbane 2018
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## To install and run
 
-## Code scaffolding
+After cloning, cd rhymetalk
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Edit package.json and remove the following line:
 
-## Build
+    "components": "file:dist/components",
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+From the command line:
+npm i
+ng build components
+npm i components
+ng serve website
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+The aim of this project was to demonstrate the method of creating and consuming a component library in Angular 6+
+The talk showed how, by modifying a simple textbox component, functionality can be aded thoughout - maximum value for minimal code change.
