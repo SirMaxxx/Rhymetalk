@@ -16,7 +16,7 @@ export class RhymeComponent implements OnInit {
   phone: string;
   // Thge rymes that have been discovered for the word
 
-  shouldTalk = false;
+  shouldTalk = true;
 
   constructor(private fb: FormBuilder, private http: HttpClient) {}
   rhymeForm: FormGroup;
