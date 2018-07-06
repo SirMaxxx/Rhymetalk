@@ -5,7 +5,7 @@ import { MaxMaterialModele } from './material.module';
 import { TextInputComponent } from './text-input/text-input.component';
 
 @NgModule({
-  imports: [, BrowserAnimationsModule, MaxMaterialModele],
+  imports: [BrowserAnimationsModule, MaxMaterialModele],
   declarations: [ComponentsComponent, TextInputComponent],
   exports: [ComponentsComponent, TextInputComponent]
 })
