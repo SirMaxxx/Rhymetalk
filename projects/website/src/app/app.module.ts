@@ -1,9 +1,8 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
-import { ComponentsModule } from 'components';
+import { NgModule } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
-
+import { BrowserModule } from '@angular/platform-browser';
+import { ComponentsModule } from 'components';
 import { AppComponent } from './app.component';
 import { RhymeComponent } from './rhyme/rhyme.component';
 

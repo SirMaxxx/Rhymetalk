@@ -1,8 +1,6 @@
-import { Component, OnInit, Input } from '@angular/core';
-import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { HttpClient } from '@angular/common/http';
-
-import { Observable } from 'rxjs';
+import { Component, OnInit } from '@angular/core';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'web-rhyme',
@@ -14,7 +12,6 @@ export class RhymeComponent implements OnInit {
   name: string; // A person's name
   address: string;
   phone: string;
-  // Thge rymes that have been discovered for the word
 
   shouldTalk = true;
 

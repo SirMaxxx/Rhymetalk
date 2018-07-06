@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import {
   MatButtonModule,
+  MatFormFieldModule,
   MatIconModule,
-  MatToolbarModule,
-  MatSidenavModule,
+  MatInputModule,
   MatListModule,
   MatMenuModule,
-  MatFormFieldModule,
-  MatInputModule
+  MatSidenavModule,
+  MatToolbarModule
 } from '@angular/material';
 
 @NgModule({
